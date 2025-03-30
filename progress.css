@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+.progress-header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.progress-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.progress-header p {
+    font-size: 1.2rem;
+}
+
+/* Progress Dashboard */
+.progress-dashboard {
+    padding: 20px;
+}
+
+/* Completion Metrics Section */
+.completion-metrics {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.completion-metrics h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.metric-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.metric-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.metric-item p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Achievements Section */
+.achievements {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.achievements h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.badges {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.badge-item {
+    text-align: center;
+}
+
+.badge-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.badge-item p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Improvement Tips Section */
+.improvement-tips {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.improvement-tips h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.improvement-tips ul {
+    list-style: none;
+    padding: 0;
+}
+
+.improvement-tips li {
+    padding: 5px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Download Report Section */
+.download-report {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#download-report-btn {
+    padding: 10px 20px;
+    background: #ff9966;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#download-report-btn:hover {
+    background: #e85b50;
+}

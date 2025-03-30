@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password - EnglishJourney</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo1.png" alt="EnglishJourney Logo">
+            </div>
+            <div class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="lessons.html">Lessons</a>
+                <a href="chat.html">Community Chat</a>
+                <a href="progress.html">Progress</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Forgot Password Form -->
+    <div class="login-container">
+        <h2>Forgot Password</h2>
+        <p>Enter your email address below, and we will send you instructions to reset your password.</p>
+        <form id="forgot-password-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your registered email" required>
+            <span id="email-error" class="error-message"></span>
+
+            <button type="submit">Send Reset Link</button>
+
+            <p class="register-link">
+                Remembered your password? <a href="login.html">Login here</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="forgotpw.js"></script>
+</body>
+</html>

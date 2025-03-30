@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Dashboard - EnglishJourney</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="progress.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo1.png" alt="EnglishJourney Logo">
+            </div>
+            <div class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="lessons.html">Lessons</a>
+                <a href="chat.html">Community Chat</a>
+                <a href="progress.html">Progress</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Progress Dashboard -->
+    <header class="progress-header">
+        <h1>Your Learning Journey</h1>
+        <p>Track your progress and stay motivated!</p>
+    </header>
+
+    <main class="progress-dashboard">
+        <!-- Completion Metrics -->
+        <section class="completion-metrics">
+            <h2>Completion Metrics</h2>
+            <div class="metrics">
+                <div class="metric-item">
+                    <h3>Lessons Completed</h3>
+                    <p id="lessons-completed">Loading...</p>
+                </div>
+                <div class="metric-item">
+                    <h3>Quizzes Attempted</h3>
+                    <p id="quizzes-attempted">Loading...</p>
+                </div>
+                <div class="metric-item">
+                    <h3>Time Spent</h3>
+                    <p id="time-spent">Loading...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements and Badges -->
+        <section class="achievements">
+            <h2>Achievements</h2>
+            <div class="badges" id="badges-container">
+                <!-- Badges will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Improvement Tips -->
+        <section class="improvement-tips">
+            <h2>Tips for Improvement</h2>
+            <ul id="tips-list">
+                <!-- Tips will be inserted here dynamically -->
+            </ul>
+        </section>
+
+        <!-- Download Report -->
+        <section class="download-report">
+            <button id="download-report-btn">Download Progress Report</button>
+        </section>
+    </main>
+    
+    <script src="progress.js"></script>
+</body>
+</html>

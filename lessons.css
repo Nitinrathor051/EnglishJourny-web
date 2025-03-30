@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Lessons Header */
+.lessons-header {
+    text-align: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 20px 0;
+}
+
+.lessons-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.lessons-header p {
+    font-size: 1.2em;
+}
+
+/* Lessons Content */
+.lessons-content {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Lesson Categories */
+.lesson-categories {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.categories-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.category:hover {
+    background-color: #357ABD;
+}
+
+/* Active Category Style */
+.category.active {
+    background-color: #2B6CA3;
+}
+
+/* Study Materials */
+.study-materials {
+    text-align: center;
+}
+
+.materials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.material-card {
+    display: none; /* Hide all initially */
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.material-card h3 {
+    margin-top: 0;
+}
+
+.material-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.material-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.material-card a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons - EnglishJourney</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="lessons.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo1.png" alt="EnglishJourney Logo">
+            </div>
+            <div class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="lessons.html">Lessons</a>
+                <a href="chat.html">Community Chat</a>
+                <a href="progress.html">Progress</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Lessons Header -->
+    <header class="lessons-header">
+        <h1>Study Materials</h1>
+        <p>Explore a wide range of lessons to enhance your skills.</p>
+    </header>
+
+    <main class="lessons-content">
+        <!-- Lesson Categories -->
+        <section class="lesson-categories">
+            <h2>Categories</h2>
+            <div class="categories-grid">
+                <div class="category" data-category="Grammar">Grammar</div>
+                <div class="category" data-category="Vocabulary">Vocabulary</div>
+                <div class="category" data-category="Pronunciation">Pronunciation</div>
+                <div class="category" data-category="Writing">Writing</div>
+            </div>
+        </section>
+
+        <!-- Study Materials -->
+        <section class="study-materials">
+            <h2>Materials</h2>
+            <div class="materials-grid">
+                <div class="material-card" data-category="Grammar">
+                    <h3>Basic Grammar Rules</h3>
+                    <p>Learn the essential grammar rules for beginners.</p>
+                    <a href="materials/basic-grammar.pdf" download>Download PDF</a>
+                </div>
+                <div class="material-card" data-category="Vocabulary">
+                    <h3>Word Power</h3>
+                    <p>Expand your vocabulary with this guide.</p>
+                    <a href="materials/word-power.pdf" download>Download PDF</a>
+                </div>
+                <div class="material-card" data-category="Pronunciation">
+                    <h3>Pronunciation Guide</h3>
+                    <p>Improve your pronunciation with audio lessons.</p>
+                    <a href="materials/pronunciation-guide.mp3" download>Download Audio</a>
+                </div>
+                <div class="material-card" data-category="Writing">
+                    <h3>Effective Writing</h3>
+                    <p>Learn to write effectively and clearly.</p>
+                    <a href="materials/effective-writing.pdf" download>Download PDF</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="lessons.js"></script>
+</body>
+</html>
